@@ -1,7 +1,7 @@
 import Box from '@mui/material/Box';
 import Head from 'next/head';
 import { FC } from 'react';
-import { Navbar } from '../ui';
+import NavBar from "../ui/Navbar";
 
 interface Props {
     title?: string; 
@@ -14,7 +14,7 @@ export const Layout:FC<Props> = ({title = 'Prueba',children}) => {
         <Head>
             <title>{title}</title>
         </Head>
-            <Navbar/>
+            <NavBar/>
 
             <Box sx={{padding:'10px 20px'}}>
                 {children}
