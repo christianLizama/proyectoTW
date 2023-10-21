@@ -5,7 +5,7 @@ import { Layout } from "./components/layouts";
 const HomePage: NextPage = () => {
   return (
     <Layout>
-      <Typography variant="h1">Hello world</Typography>
+      
     </Layout>
   );
 };
