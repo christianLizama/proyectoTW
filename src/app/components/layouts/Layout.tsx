@@ -2,6 +2,7 @@ import Box from '@mui/material/Box';
 import Head from 'next/head';
 import { FC } from 'react';
 import SignIn from '../cliente/SignIn.client';
+import SignUp from '../cliente/SignUp.client';
 
 interface Props {
     title?: string; 
@@ -27,7 +28,7 @@ export const Layout:FC<Props> = ({title = 'Prueba', children}) => {
         {/* Puedes descomentar la siguiente línea para mostrar el NavBar si es necesario
         <NavBar/> 
         */}
-        <SignIn/>
+        <SignUp/>
         <Box 
           sx={{
             padding: '10px 20px',
